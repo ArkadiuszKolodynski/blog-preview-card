@@ -4,7 +4,7 @@ import classNames from "./BlogCard.module.scss";
 
 function BlogCard() {
   return (
-    <div className={`${classNames.blogCard}`}>
+    <div className={classNames.blogCard}>
       <img
         src={articleImage}
         alt="article"
